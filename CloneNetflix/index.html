@@ -2,6 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
     <link rel="stylesheet" href="style.css">
     <title>Netflix</title>
 </head>
@@ -27,10 +28,8 @@
     </header>
 
     <main>
-        <section>
-            <div class="image-bg">
-                <img class="image" src="https://assets.nflxext.com/ffe/siteui/vlv3/9c5457b8-9ab0-4a04-9fc1-e608d5670f1a/710d74e0-7158-408e-8d9b-23c219dee5df/IN-en-20210719-popsignuptwoweeks-perspective_alpha_website_small.jpg" alt="background">
-                <div class="text-container">
+        <section class="story-section">
+                <!--<div class="text-container">-->
                 <div class="story-card">
                     <h1 class="story-card-title">
                         Filmes, séries e muito mais, sem limites.
@@ -44,17 +43,74 @@
                         <h3 class="form-invitation">
                             Quer assistir? Informe seu email para criar ou reiniciar sua assinatura.
                         </h3>
-                        <div class="form-container-email">
+                        <d class="form-container-email">
                             <input id="input-email" type="text" placeholder="Email">
                         <button id="btn-form">
                             Vamos lá >
                         </button>
-                        </div>
                     </form>
-                </div>
                 </div>
             </div>
         </section>
+
+        <section class="resources-section">
+            <div class="form-container-tv">
+
+                <h2 class="story-card-title">
+                    Aproveite na TV
+                </h2>
+
+                <p class="story-card-subtitle">
+                    Assista em Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, aparelhos de Blu-ray e outros dispositivos.
+                </p>
+
+            </div>
+
+            <div class="img-resources">
+                <img src="img/tv.png" alt="recursos">
+            </div>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <section class="where-section">
+            <div>
+
+                <h2 class="story-card-title">
+                    Assista onde quiser
+                </h2>
+
+                <p class="story-card-subtitle">
+                    Assista a quantos filmes e séries quiser no celular, tablet, laptop e TV.
+                </p>
+
+            </div>
+
+            <div class="img-where">
+                <img src="img/device-pile.png" alt="onde">
+            </div>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <section class="profile-section">
+            <div>
+
+                <h2 class="story-card-title">
+                    Crie perfis para crianças
+                </h2>
+
+                <p class="story-card-subtitle">
+                    Deixe as crianças se aventurarem com seus personagens favoritos em um espaço feito só para elas, sem pagar a mais por isso.
+                </p>
+
+            </div>
+
+            <div class="img-resources">
+                <img src="img/kids.png" alt="onde">
+            </div>
+        </section>
+
     </main>
 </body>
 </html>
