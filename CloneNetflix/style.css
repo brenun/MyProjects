@@ -172,9 +172,23 @@ button {
     font-size: 1.5rem;
 }
 
+
 .img-resources {
+    position: relative;
     text-align: center;
     margin-top: 1rem;
+    z-index: 2;
+}
+/* imagem ficou como sanduiche, video entre duas camadas de imagem */
+
+.feature_background_video_resources {
+    position: absolute;
+    right: 40px;
+    top: 50px;
+    z-index: -1;
+    max-height: 310px;
+    max-width: 540px;
+    
 }
 
 .resources-section {
@@ -190,8 +204,19 @@ button {
 }
 
 .img-where {
+    position: relative;
     text-align: center;
     margin-top: 1rem;
+    z-index: 2;
+}
+
+.feature__backgroud__video__where {
+    position: absolute;
+    right: 60px;
+    top: 20px;
+    z-index: -1;
+    max-height: 310px;
+    max-width: 400px;
 }
 
 .where-section {
