@@ -34,6 +34,14 @@ body::before {
 
 /* Coloquei elemento before para dar sombreamento */
 
+p {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+/* utilizei para estilizar o paragrafo dos subtitles */
+
 main {
     display: flex;
     flex-direction: column;
@@ -88,18 +96,20 @@ button {
 
 /*.text-container {
    /*position: absolute;*/
-    /*top: 50%;
+/*top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);*/
-    /*text-align: center;
+/*text-align: center;
     color: whitesmoke;*/
 
 
 .story-card {
     width: 100%;
     max-width: 950px;
-    height: 495px; /* Altura fixa */
-    margin: 0 auto; /* Centralizar horizontalmente */
+    height: 495px;
+    /* Altura fixa */
+    margin: 0 auto;
+    /* Centralizar horizontalmente */
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -112,13 +122,17 @@ button {
 
 .story-card-title {
     font-family: 'Roboto', sans-serif;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: bold;
     text-align: center;
 }
 
 .story-card-subtitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
     font-weight: 400;
+    text-align: center;
+    gap: 1rem;
 }
 
 .form-container {
@@ -164,6 +178,10 @@ button {
 }
 
 .resources-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* display, justify-content e aling-items, utilizado para alinhar o texto ao lado da imagem */
     background-color: #000000;
     padding: 2rem 0;
     text-align: center;
@@ -177,6 +195,11 @@ button {
 }
 
 .where-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    /* display, justify-content e aling-items, utilizado para alinhar o texto ao lado da imagem */
     background-color: #000000;
     padding: 2rem 0;
     text-align: center;
@@ -185,6 +208,10 @@ button {
 }
 
 .profile-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* display, justify-content e aling-items, utilizado para alinhar o texto ao lado da imagem */
     background-color: #000000;
     padding: 2rem 0;
     text-align: center;
@@ -196,5 +223,3 @@ button {
     background-color: gray;
     height: 3px;
 }
-
-
